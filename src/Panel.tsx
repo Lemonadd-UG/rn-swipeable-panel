@@ -170,7 +170,7 @@ class SwipeablePanel extends React.Component<SwipeablePanelProps, SwipeablePanel
 
     if (newStatus === STATUS.CLOSED) newY = PANEL_HEIGHT;
     else if (newStatus === STATUS.SMALL)
-      newY = this.state.orientation === 'portrait' ? FULL_HEIGHT - 400 : FULL_HEIGHT / 3;
+      newY = this.state.orientation === 'portrait' ? FULL_HEIGHT - 450 : FULL_HEIGHT / 3;
     else if (newStatus === STATUS.LARGE) newY = 0;
 
     this.setState({
